@@ -1,0 +1,12 @@
+VAR myint,NUMERIC,100
+JMP A
+VAR $myfloat,REAL,12.14
+ADD $myint,'m',20.7,300,$myint
+ADD $myint,100,20.7,300,$myint
+MUL $myint,100,20.7,300,$myint
+SUB $myint,100,$myint2
+DIV $myfloat,100,$myint2
+ASIGN $mystr1,$mystr2
+ASIGN $mystr1,This is a test string
+LABEL A
+jhuyvygnOUT $myint
